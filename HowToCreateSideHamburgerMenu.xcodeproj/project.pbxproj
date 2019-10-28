@@ -13,6 +13,7 @@
 		1DB947552367688E00DAC3EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB947542367688E00DAC3EB /* Assets.xcassets */; };
 		1DB947582367688E00DAC3EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB947572367688E00DAC3EB /* Preview Assets.xcassets */; };
 		1DB9475B2367688E00DAC3EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB947592367688E00DAC3EB /* LaunchScreen.storyboard */; };
+		1DB94763236769DC00DAC3EB /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB94762236769DC00DAC3EB /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1DB947572367688E00DAC3EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1DB9475A2367688E00DAC3EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DB9475C2367688E00DAC3EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DB94762236769DC00DAC3EB /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		1DB947422367688D00DAC3EB = {
 			isa = PBXGroup;
 			children = (
+				1DB94762236769DC00DAC3EB /* MenuView.swift */,
 				1DB9474D2367688D00DAC3EB /* HowToCreateSideHamburgerMenu */,
 				1DB9474C2367688D00DAC3EB /* Products */,
 			);
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DB9474F2367688D00DAC3EB /* AppDelegate.swift in Sources */,
+				1DB94763236769DC00DAC3EB /* MenuView.swift in Sources */,
 				1DB947512367688D00DAC3EB /* SceneDelegate.swift in Sources */,
 				1DB947532367688D00DAC3EB /* ContentView.swift in Sources */,
 			);
